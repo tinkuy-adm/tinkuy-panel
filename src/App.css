@@ -1,0 +1,86 @@
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+.people_dot {
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  z-index: -1;
+}
+
+.people_dot.normal {
+  background-color: #ffffff;
+  border: 2px solid #6e6e6e;
+}
+
+.people_dot.brigada {
+  background-color: #80ff80;
+  border: 2px solid #28911e;
+  width: 9px;
+  height: 9px;
+  z-index: 999;
+}
+
+.people_dot.legal {
+  background-color: #996c6c;
+  border: 2px solid #5a1818;
+  width: 9px;
+  height: 9px;
+  z-index: 999;
+}
+
+.people_dot.detencion {
+  background-color: #f5b78e;
+  border: 2px solid #fa7203;
+  width: 9px;
+  height: 9px;
+  z-index: 999;
+  z-index: 999;
+}
+
+.people_dot.sos {
+  background-color: #f58e8e;
+  border: 2px solid #dd3d3d;
+  width: 9px;
+  height: 9px;
+  z-index: 999;
+}
+
+.cluster_dot {
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  background-color: #5d90ff;
+  border: 2px solid #0011ff;
+  z-index: 999;
+}
+
+.controls {
+  position: absolute;
+  z-index: 10000;
+  padding: 15px;
+  background-color: rgba(250, 250, 250, 0.5);
+}
+
+.shows {
+  margin-top: 15px;
+}
+
+.refresh > * {
+  margin-left: 15px;
+}
+.refresh:first-child {
+  margin-left: -15px !important;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.login > * {
+  margin-top: 15px;
+}
